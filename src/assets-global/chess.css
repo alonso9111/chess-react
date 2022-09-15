@@ -1,0 +1,163 @@
+body {
+
+    margin: 0;
+    font-family: Raleway, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: .812rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #546e7a;
+    background-color: #0a1840;
+}
+
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    color: #546e7a;
+}
+
+
+.heading-title {
+    margin-bottom: 30px;
+    line-height: 1.3em;
+
+    color: #e6e6e9;
+}
+
+.heading-text.small {
+    font-size: 14px;
+}
+
+.col-3-width {
+    width: 33.33%;
+}
+
+
+
+.btn-primary:hover {
+    background-color: #f44a00;
+    opacity: 1;
+}
+
+
+.button {
+    
+    background-color: #405cf5;
+    border-radius: 6px;
+    font-size: 6pt;
+ 
+    color: #fff;
+    cursor: pointer;
+    height: 44px;
+ 
+    margin: -53px 0 0;
+    padding: 0 25px;
+    position: absolute;
+    text-align: center;
+   
+    width: 310px; 
+}
+
+
+
+.btn-secondary:hover {
+    background-color: #f44a00;
+    opacity: 1;
+}
+
+.btn-purple {
+    background-color: #7c5ac2;
+}
+
+.btn-blue {
+    background-color: #2962ff;
+}
+
+.btn-breez {
+    background-color: #28B62C;
+}
+
+.btn-green {
+    background-color: #1ed760;
+}
+
+.btn-grey {
+    background-color: #546e7a;
+}
+
+.btn-grey-light {
+    background-color: #90a4ae;
+}
+
+.btn-grey-lighter {
+    background-color: #eceff1;
+}
+
+.btn-breez-light {
+    background-color: #00e5ff;
+}
+
+.btn-yellow {
+    background-color: #ffbb00;
+}
+
+.btn-smoke {
+    background-color: #eceff1;
+}
+
+.btn-bg-secondary {
+    background-color: #0a1840;
+
+}
+
+.btn-light-bg {
+    color: #515365;
+}
+
+.btn-light-bg:hover {
+    color: #515365;
+}
+
+.btn-light-bg:focus {
+    color: #515365;
+}
+
+.btn {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.btn.c-grey {
+    border-color: #d8dbe6;
+}
+
+.btn.c-grey:hover {
+    color: inherit;
+}
+
+.btn.disabled,
+.btn:disabled {
+    background-color: #9a9fbf;
+    border-color: #9a9fbf;
+}
+
+.btn-transparent {
+    background-color: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.btn-icon-left i,
+.btn-icon-left svg {
+    font-size: 12px;
+    margin-right: 10px;
+}
