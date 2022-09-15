@@ -9,7 +9,7 @@ import Piece from './piece'
 import piecemap from './piecemap'
 import { useParams } from 'react-router-dom'
 import { ColorContext } from '../../context/colorcontext'
-// import VideoChatApp from '../../connection/videochat'
+import VideoChatApp from '../../connection/videochat'
 
 const socket = require('../../connection/socket').socket
 
@@ -315,12 +315,12 @@ const ChessGameWrapper = (props) => {
                             gameId={gameid}
                             color={color.didRedirect}
                         />
-                        {/* { <VideoChatApp
+                        { <VideoChatApp
                 mySocketId={socket.id}
                 opponentSocketId={opponentSocketId}
                 myUserName={props.myUserName}
                 opponentUserName={opponentUserName}
-              /> } */}
+              /> }
                     </div>
                     
                 </div>
