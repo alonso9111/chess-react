@@ -1,6 +1,6 @@
 import io from 'socket.io-client'
 
-const URL = 'socketchess.campuus.us:8000'
+const URL = '67.202.29.99:8000'
 
 const socket = io(URL)
 
